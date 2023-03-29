@@ -147,33 +147,33 @@ input[type="text"]:focus {
     outline: none;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 425px) {
 
     .page-header{
-            width: 17rem;
-            height: 3rem;
-            top: -2.7rem;            
+        width: 47vh;
+        height: 5vh;
+        top: -6vh;            
     }
         
     .container {
-            width: 17rem;
-            height: 7rem;
-            top: 15rem;
+        width: 47vh;
+        height: 13vh;
+        top: 38.3vh;
     }
         
     .form {
-            width: 17rem;
-            height: 7rem;
-            top: 21rem;
+        width: 47vh;
+        height: 17vh;
+        top: 54vh;
     }
     
     .invalido {
-            width: 17rem;
-            height: 1.5rem;
+        width: 47vh;
+        height: 4vh;
     }
     
     .valido {
-            width: 17rem;
-            height: 1.5rem;
+        width: 47vh;
+        height: 4vh;
     }
 }
