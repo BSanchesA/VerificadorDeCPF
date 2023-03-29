@@ -147,7 +147,7 @@ input[type="text"]:focus {
     outline: none;
 }
 
-@media (max-width: 330px) {
+@media (max-width: 350px) {
 
     .page-header{
             width: 16rem;
