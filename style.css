@@ -147,33 +147,37 @@ input[type="text"]:focus {
     outline: none;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 
     .page-header{
-            width: 16rem;
+            width: 17rem;
             height: 3rem;
             top: -2.7rem;
+            font-size: 2.5vh;
+            
     }
         
     .container {
-            width: 16rem;
-            height: 5rem;
+            width: 17rem;
+            height: 7rem;
             top: 15rem;
+            font-size: 2vh;
     }
         
     .form {
-            width: 16rem;
-            height: 6rem;
-            top: 20.7rem;
+            width: 17rem;
+            height: 8rem;
+            top: 22.8rem;
+            font-size: 2vh;
     }
     
     .invalido {
-            width: 16rem;
+            width: 17rem;
             height: 1.5rem;
     }
     
     .valido {
-            width: 16rem;
+            width: 17rem;
             height: 1.5rem;
     }
 }
