@@ -147,28 +147,24 @@ input[type="text"]:focus {
     outline: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 380px) {
 
     .page-header{
             width: 17rem;
             height: 3rem;
-            top: -2.7rem;
-            font-size: 2.5vh;
-            
+            top: -2.7rem;            
     }
         
     .container {
             width: 17rem;
-            height: 7rem;
+            height: 4.5rem;
             top: 15rem;
-            font-size: 2vh;
     }
         
     .form {
             width: 17rem;
-            height: 8rem;
-            top: 22.8rem;
-            font-size: 2vh;
+            height: 6.5rem;
+            top: 21rem;
     }
     
     .invalido {
