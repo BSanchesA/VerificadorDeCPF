@@ -1,0 +1,267 @@
+body {
+    background-color: #343434;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+.page-header {
+    position: absolute;
+    font-size: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1f1f1f;
+    border-radius: 10px 5px;
+    color: #f64348;
+    opacity: 0.8;
+    border: 1px solid #898989;
+    box-shadow: 2px -2px 10px #404040;
+}
+
+.container {
+    background-color: #404040;
+    font-size: 2vh;
+    color: #e5e5e5;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px 10px;
+    border: 1px solid #898989;
+    box-shadow: 2px 2px 10px #404040;
+}
+
+.form {
+  background-color: #404040;
+  color: #e5e5e5;
+  width: 25rem;
+  height: 7rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2.5vh;
+  border-radius: 10px 5px;
+  border: 1px solid #898989;
+  box-shadow: 2px 2px 10px #404040;
+}
+
+.textCpf {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    background-color: #343434;
+    color: #e5e5e5;
+    text-align: center;
+    font-size: 2vh;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #898989;
+    box-shadow: 2px 2px 10px #1f1f1f;
+}
+
+button {
+    background-color: #f64348;
+    border: 1px solid #898989;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0.8;
+    position: relative;
+    top: -0.2rem;
+    height: 1.5rem;
+    width: 7rem;
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    transition: transform 0.2s ease-in-out;
+}
+
+.invalido {
+    background-color: #f64348;
+    opacity: 0.8;
+    color: #1f1f1f;
+    font-weight: bold;
+    position: relative;
+    top: 2rem;
+    width: 25rem;
+    height: 1.5rem;
+    font-size: 2.5vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    transition: background-color 0.3s ease-in;
+}
+
+.valido {
+    background-color: #47ba6d;
+    opacity: 0.8;
+    color: #1f1f1f;
+    font-weight: bold;
+    position: relative;
+    top: 2rem;
+    width: 25rem;
+    height: 1.5rem;
+    font-size: 2.5vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    transition: background-color 0.3s ease;
+}
+
+/* ---------------------------------------------------- */
+
+button:hover {
+   background-color: #1f1f1f;
+   border-color: #1f1f1f;
+   box-shadow: 0 0 1px #f64348, 0 0 1px #f64348, 0 0 2px #f64348, 0 0 1px #db561d;
+   transform: translateY(-3.5px);
+   cursor: pointer;
+}
+
+::selection {
+    background-color: #1f1f1f;
+    color: #e5e5e5;
+}
+
+input[type="text"]:hover {
+   background-color: #1f1f1f;
+   opacity: 10px;
+   box-shadow: 0 0 1px #f64348, 0 0 1px #f64348, 0 0 2px #f64348, 0 0 1px #db561d;
+   border-color: #1f1f1f;
+}
+
+input[type="text"]:focus {
+    background-color: #1f1f1f;
+    opacity: 10px;
+    border-color: #f64348;
+    outline: none;
+}
+
+@media (min-width: 421px) {
+
+    .page-header{
+        width: 25rem;
+        height: 2rem;
+        top: -2.45rem;
+    }
+    
+    .container {
+        width: 25rem;
+        height: 5rem;
+        top: 15rem;
+    }
+    
+    .form {
+        width: 25rem;
+        height: 7rem;
+        top: 21.3rem;
+    }
+    
+    .invalido {
+        width: 25rem;
+        height: 1.5rem;
+        top: 2rem;
+    }
+
+    .valido {
+        width: 25rem;
+        height: 1.5rem;
+        top: 2rem;
+    }
+}
+
+@media (max-width: 420px) {
+
+.page-header{
+    width: 20rem;
+    height: 2rem;
+    top: -2.2rem;
+}
+
+.container {
+    width: 20rem;
+    height: 5rem;
+    top: 15rem;
+}
+
+.form {
+    width: 20rem;
+    height: 7rem;
+    top: 21.3rem;
+}
+
+.invalido {
+    width: 20rem;
+    height: 1.5rem;
+}
+
+.valido {
+    width: 20rem;
+    height: 1.5rem;
+}
+}
+
+@media (max-width: 335px) {
+
+    .page-header{
+        width: 17rem;
+        height: 2rem;
+        top: -2.2rem;
+    }
+    
+    .container {
+        width: 17rem;
+        height: 5rem;
+        top: 15rem;
+    }
+    
+    .form {
+        width: 17rem;
+        height: 7rem;
+        top: 21.3rem;
+    }
+
+    .invalido {
+        width: 17rem;
+        height: 1.5rem;
+    }
+
+    .valido {
+        width: 17rem;
+        height: 1.5rem;
+    }
+    }
+
+@media (max-width: 295px) {
+
+    .page-header{
+            width: 16rem;
+            height: 3rem;
+            top: -2.7rem;
+    }
+        
+    .container {
+            width: 16rem;
+            height: 5rem;
+            top: 15rem;
+    }
+        
+    .form {
+            width: 16rem;
+            height: 6rem;
+            top: 20.7rem;
+    }
+    
+    .invalido {
+            width: 16rem;
+            height: 1.5rem;
+    }
+    
+    .valido {
+            width: 16rem;
+            height: 1.5rem;
+    }
+}
