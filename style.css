@@ -173,7 +173,7 @@ input[type="text"]:focus {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
 
 .page-header{
     width: 20rem;
@@ -204,7 +204,7 @@ input[type="text"]:focus {
 }
 }
 
-@media (max-width: 335px) {
+@media (max-width: 350px) {
 
     .page-header{
         width: 17rem;
